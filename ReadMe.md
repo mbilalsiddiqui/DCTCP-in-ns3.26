@@ -23,7 +23,7 @@ Config::SetDefault ("ns3::RedQueueDisc::UseEcn", BooleanValue (true));
  
 
 
---> The four tcp experiments correspond to the four experiments mentioned in the presentation
+--> The four tcp experiments correspond to the four experiments mentioned below:
 
 		1) Throughput and Queue Length experiment 
 		2) Incast performance experiment
@@ -35,4 +35,4 @@ Config::SetDefault ("ns3::RedQueueDisc::UseEcn", BooleanValue (true));
 
 --> The 64-server-fat-tree builds a larger fat-tree topology in ns3.
 
-Note: Each test can be run individually. There is a lot of overlapping code in those test files.
+Note: Each test can be run individually. There is a lot of overlapping code in those test files. 
